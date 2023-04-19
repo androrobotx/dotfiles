@@ -1,0 +1,7 @@
+tap "homebrew/bundle"
+tap "sdkman/tap"
+brew "chezmoi"
+brew "gcc"
+brew "git"
+brew "nvm"
+brew "sdkman/tap/sdkman-cli"
