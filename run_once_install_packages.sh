@@ -1,9 +1,7 @@
 #!/bin/sh
 
-#Install Git
-#brew install git
+#Execute BrewFIle
+brew bundle install --file Brewfile
 
-#Install JDk MAN
-#brew install unzip & curl -s "https://get.sdkman.io" | bash & source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-#Install Maven
+#Install LunarVim
+bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
